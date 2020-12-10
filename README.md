@@ -51,3 +51,11 @@ for x in range(M):
         counter = counter +1
         print('The {} number: {}'.format( counter, a[x,y]))
 ```
+
+5. for_loop & zip & if
+```python
+names = ['黄杰','杨艾','李丰庆','戴晓勇','龚书楠','陈炎英']
+x = []
+x = [name for num, name in zip(range(6), names) if num != 3]
+print('此时在办公室的有：{}'.format(x))
+```

@@ -48,3 +48,6 @@ for name, i in zip(names, range(N)):
     print('{} 恭喜1B111李丰庆取得Offer！！! ^_^'.format(name))
 
 
+x = []
+x = [name for num, name in zip(range(6), names) if num != 3]
+print('此时在办公室的有：{}'.format(x))
